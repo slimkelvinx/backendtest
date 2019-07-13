@@ -13,8 +13,8 @@ const minimumSwaps = (arr) => {
          counter++;
       }
       else {
-         arr.splice(0, 1); console.log("in else case")
+         arr.splice(0, 1); 
       }
 
-   } return counter;
+   } return console.log(counter);
 }
