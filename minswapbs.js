@@ -5,7 +5,7 @@ const minimumSwaps = (arr) => {
    for (let i = arr.length; i > 0; i--) {
       let minval = Math.min(...arr); console.log("before", arr);
       let minIndex = arr.indexOf(minval);
-      if (minval != = arr[0]) {
+      if (minval != arr[0]) {
          let temp = arr[0];
          arr[0] = arr[minIndex];
          arr[minIndex] = temp; console.log("after", arr);
