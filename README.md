@@ -4,8 +4,8 @@ This is a javascript code to find the minimum number of swaps required to sort t
 
 I used a selection sort technique.
 
-I first created a function(minimumSwaps) that accepts an array as a parameter(arr). 
-Then I intialized a counter to count how many times the swap has occured. 
+I first created a function(minimumSwaps) that accepts an array as a parameter(arr). <br />
+Then I intialized a counter to count how many times the swap has occured. <br />
 Then I looped through the array lenght, reducing i everytime I loop through.
 I created a variable called minval to hold the minimum value from the array, then used the spread syntax to open up the array and pick out the minimum value with Math.min function.
 I created a variable called minIndex to hold the position of the minval in the array.
